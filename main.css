@@ -1,3 +1,11 @@
+* {
+  /* override box-sizing here because we need to override inheriance and browser default box-sizing in all the elements */
+  /* default total width= width+padding+border (means more width, you need to adjust width)*/
+  /* box-sizing: content-box; */
+  /* total width=width (content+border+padding)*/
+  box-sizing: border-box;
+}
+
 /* use body to define font-family due to it has more specifity than universal selector
 because of inheritance it will get applied to its direct or indirect childs */
 /* inheritance has very low specificity even low from browser default styles */
@@ -9,8 +17,11 @@ body {
 
 /* id selector */
 #product-overview {
+  /* backgrond, padding, border, margin are short hands,, check in chrome inspector what is the longer version of this */
   background: #ff1b68;
-  width: 100%;
+  /* block level elements width by default 100%, we can chnage to 50% or px */
+  width: 500px;
+  /* need to use explicit height, if use 100%, it will take 100% of it parent, so we need to add height explicit height to parent also */
   height: 528px;
   padding: 10px;
   border: 5px solid black;
