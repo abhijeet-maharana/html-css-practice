@@ -1,8 +1,18 @@
+/* id selector */
+#product-overview {
+  background: #ff1b68;
+}
+
+/* element selector */
 h1 {
   color: white;
   /* default */
   /* font-family: serif; */
   /* font-family: sans-serif; */
   font-family: "Anton", sans-serif;
-  background: red;
+}
+
+/* class selector */
+.section-title {
+  color: #2ddf5c;
 }
