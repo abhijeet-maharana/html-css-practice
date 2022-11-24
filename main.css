@@ -16,3 +16,20 @@ h1 {
 .section-title {
   color: #2ddf5c;
 }
+
+/* Universal Selector */
+/* * {
+  color: red;
+} */
+
+/* attribute selector */
+/* [disabled] {
+  color: red;
+} */
+
+/* Specificity from high to low */
+/* you can check from inspect element css applied */
+/* Inline styles
+#ID selectors
+.class, :pseduo-class and attribute selectors
+<tag> and ::pseduo-element selectors */
