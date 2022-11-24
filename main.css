@@ -17,7 +17,7 @@ body {
   /* font-family: inherit; */
 }
 
-/* it is a combinator as it combines
+/* it is a decendant combinator selector as it combines
 it has more specifity than only h1 */
 #product-overview h1 {
   color: white;
@@ -49,3 +49,52 @@ h1 {
 #ID selectors
 .class, :pseduo-class and attribute selectors
 <tag> and ::pseduo-element selectors */
+
+.highlighted-code {
+  color: green;
+}
+
+#assignment-instructions {
+  font-family: sans-serif;
+  color: blue;
+}
+
+code {
+  font-family: monospace;
+  color: red;
+}
+
+/* selectos with combinators */
+
+/* Adjancent sibling */
+/* second element immediaty coming after first element and they share the same parent */
+li + li {
+  background: black;
+  color: white;
+}
+
+ol li {
+  background: black;
+  color: white;
+}
+
+/* General Sibling */
+/* Second element coming after first element(immedialy or not immediately) and they share the same parent */
+/* h2 > P {
+  color: red;
+} */
+
+/* Child */
+/* Second element is direct child of first element */
+/* div > p {
+  color: red;
+} */
+
+/* Decendant */
+/* Second element is direct or indirect child of first element */
+/* div p {
+  color: red;
+} */
+
+/* Don't learn this by heart */
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/Reference */
