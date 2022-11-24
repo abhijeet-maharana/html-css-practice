@@ -13,6 +13,15 @@ body {
 /* class selector */
 .section-title {
   color: #2ddf5c;
+  /* inherit will use its direct to indirect parent font-family */
+  /* font-family: inherit; */
+}
+
+/* it is a combinator as it combines
+it has more specifity than only h1 */
+#product-overview h1 {
+  color: white;
+  font-family: "Anton", sans-serif;
 }
 
 /* element selector */
