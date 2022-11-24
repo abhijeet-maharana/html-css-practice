@@ -3,6 +3,8 @@ because of inheritance it will get applied to its direct or indirect childs */
 /* inheritance has very low specificity even low from browser default styles */
 body {
   font-family: "Montserrat", sans-serif;
+  /* body default margin remove */
+  margin: 0;
 }
 
 /* id selector */
@@ -15,13 +17,14 @@ body {
   margin: 10px;
 }
 
+/* if you have 2 block level elements together then margin collaps */
+
 /* class selector */
 .section-title {
   color: #2ddf5c;
   /* inherit will use its direct to indirect parent font-family */
   /* font-family: inherit; */
 }
-
 /* it is a decendant combinator selector as it combines
 it has more specifity than only h1 */
 #product-overview h1 {
