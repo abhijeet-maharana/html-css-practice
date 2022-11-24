@@ -1,6 +1,18 @@
+/* use body to define font-family due to it has more specifity than universal selector
+because of inheritance it will get applied to its direct or indirect childs */
+/* inheritance has very low specificity even low from browser default styles */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 /* id selector */
 #product-overview {
   background: #ff1b68;
+}
+
+/* class selector */
+.section-title {
+  color: #2ddf5c;
 }
 
 /* element selector */
@@ -10,11 +22,6 @@ h1 {
   /* font-family: serif; */
   /* font-family: sans-serif; */
   font-family: "Anton", sans-serif;
-}
-
-/* class selector */
-.section-title {
-  color: #2ddf5c;
 }
 
 /* Universal Selector */
