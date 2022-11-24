@@ -1,3 +1,8 @@
-section {
-    background: #ff1b68;
+h1 {
+  color: white;
+  /* default */
+  /* font-family: serif; */
+  /* font-family: sans-serif; */
+  font-family: "Anton", sans-serif;
+  background: red;
 }
