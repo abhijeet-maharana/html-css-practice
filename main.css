@@ -35,6 +35,49 @@ body {
   padding: 8px 16px;
 }
 
+.main-header > div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.main-header__brand {
+  color: #0e4f1f;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.main-nav {
+  display: inline-block;
+  text-align: right;
+  /* hacky */
+  width: calc(100% - 54px);
+  /* vertical align */
+  vertical-align: middle;
+}
+
+.main-nav__items {
+  margin: 0;
+  padding: 0;
+  /* remove bullet points */
+  list-style: none;
+}
+
+.main-nav__item {
+  display: inline-block;
+  margin: 0 16px;
+}
+
+.main-nav__item a {
+  /* remove underline */
+  text-decoration: none;
+  color: #0e4f1f;
+}
+/* anchor tag display is by default inline, so we can't apply margin padding top bottom to that element 
+if we do display:block, we will take full width, like block level elements
+if we do display:inline-block, then we will take width like inline but we can also apply margin padding top bottom
+*/
+
 /* if you have 2 block level elements together then margin collaps */
 
 /* class selector */
