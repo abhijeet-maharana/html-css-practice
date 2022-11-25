@@ -73,6 +73,14 @@ body {
   text-decoration: none;
   color: #0e4f1f;
 }
+
+/* pseudo class is with single colon which handles the states of an element*/
+/* pseudo elements is with double colon like ::after,::before,::first-letter */
+.main-nav__item a:hover,
+.main-nav__item a:active {
+  color: white;
+  border-bottom: 5px solid white;
+}
 /* anchor tag display is by default inline, so we can't apply margin padding top bottom to that element 
 if we do display:block, we will take full width, like block level elements
 if we do display:inline-block, then we will take width like inline but we can also apply margin padding top bottom
