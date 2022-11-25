@@ -20,12 +20,19 @@ body {
   /* backgrond, padding, border, margin are short hands,, check in chrome inspector what is the longer version of this */
   background: #ff1b68;
   /* block level elements width by default 100%, we can chnage to 50% or px */
-  width: 500px;
+  width: 100%;
   /* need to use explicit height, if use 100%, it will take 100% of it parent, so we need to add height explicit height to parent also */
   height: 528px;
   padding: 10px;
-  border: 5px solid black;
-  margin: 10px;
+  /* border: 5px solid black; */
+  /* margin: 10px; */
+}
+
+.main-header {
+  width: 100%;
+  background: #2ddf5c;
+  /* top bottom, left right */
+  padding: 8px 16px;
 }
 
 /* if you have 2 block level elements together then margin collaps */
@@ -44,13 +51,13 @@ it has more specifity than only h1 */
 }
 
 /* element selector */
-h1 {
-  color: white;
-  /* default */
-  /* font-family: serif; */
-  /* font-family: sans-serif; */
-  font-family: "Anton", sans-serif;
-}
+/* h1 { */
+/* color: white; */
+/* default */
+/* font-family: serif; */
+/* font-family: sans-serif; */
+/* font-family: "Anton", sans-serif; */
+/* } */
 
 /* Universal Selector */
 /* * {
@@ -69,7 +76,7 @@ h1 {
 .class, :pseduo-class and attribute selectors
 <tag> and ::pseduo-element selectors */
 
-.highlighted-code {
+/* .highlighted-code {
   color: green;
 }
 
@@ -81,13 +88,13 @@ h1 {
 code {
   font-family: monospace;
   color: red;
-}
+} */
 
 /* selectos with combinators */
 
 /* Adjancent sibling */
 /* second element immediaty coming after first element and they share the same parent */
-li + li {
+/* li + li {
   background: black;
   color: white;
 }
@@ -95,7 +102,7 @@ li + li {
 ol li {
   background: black;
   color: white;
-}
+} */
 
 /* General Sibling */
 /* Second element coming after first element(immedialy or not immediately) and they share the same parent */
