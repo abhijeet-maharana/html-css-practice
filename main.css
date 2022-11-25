@@ -87,6 +87,20 @@ body {
   border-bottom: 5px solid white;
   border-bottom: 5px solid white;
 }
+
+.main-nav__item--cta a {
+  color: white;
+  background: #ff1b68;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active {
+  color: #ff1b68;
+  background: white;
+  border: none;
+}
 /* anchor tag display is by default inline, so we can't apply margin padding top bottom to that element 
 if we do display:block, we will take full width, like block level elements
 if we do display:inline-block, then we will take width like inline but we can also apply margin padding top bottom
