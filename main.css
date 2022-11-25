@@ -18,7 +18,7 @@ body {
 /* id selector */
 #product-overview {
   /* backgrond, padding, border, margin are short hands,, check in chrome inspector what is the longer version of this */
-  background: #ff1b68;
+  background: url("freedom.jpg");
   /* block level elements width by default 100%, we can chnage to 50% or px */
   width: 100%;
   /* need to use explicit height, if use 100%, it will take 100% of it parent, so we need to add height explicit height to parent also */
