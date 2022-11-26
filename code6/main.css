@@ -22,6 +22,11 @@
   /* border: 5px dashed red; */
   position: relative;
 }
+/* 
+<img> vs background-image
+<img> is better for accessibility but way more difficult to style
+background-image can be sized and positioned easier 
+*/
 
 .section-title {
   color: #2ddf5c;
@@ -35,6 +40,10 @@
   bottom: 5%;
   left: 3%;
 }
+
+/* if the element is position fixed then % refers to viewport */
+/* if the element is position absolute then % refers its ancenstor/content +padding*/
+/* if the element is position static or relative then % refers to ancenstor/content block level element */
 
 .plan__list {
   width: 80%;
