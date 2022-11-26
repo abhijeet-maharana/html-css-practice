@@ -1,5 +1,9 @@
 .testimonial {
-  font-size: 20px;
+  /* rem refers to root element size,
+  em refers to parent element size */
+  /* better use rem for not get confused */
+  /* 1rem = 16px default from browser, if the user change the font size, then rem also changes, so use rem for dynamlic size changes*/
+  font-size: 1.2rem;
   margin: 48px 0;
 }
 
@@ -18,6 +22,7 @@
   max-width: 580px;
   display: inline-block;
   vertical-align: middle;
+  /* no need to use rem here as box-shadow no need to be dynamic size*/
   box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.3);
 }
 
