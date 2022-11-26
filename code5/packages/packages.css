@@ -8,6 +8,7 @@ main {
   width: 100%;
   height: 100%;
   position: fixed;
+  /* z-index default is 0 */
   z-index: -1;
 }
 
@@ -16,7 +17,11 @@ main {
   margin: 16px 0;
   border: 4px solid #0e4f1f;
   border-left: none;
+  /* make ansestor to relative to position absolute to this element */
   position: relative;
+  /* if you apply top bottm here then it will position from this element itself not accourding to any parent element */
+  /* overflow: hidden; if you apply overflow hidden, then it will not show the portion of elements if it is overflowed */
+  /* position: sticky; if you apply skicky and add top:10px then when you scoll to bottm, then the space between element to top is 10px, then this element will be float*/
 }
 
 .package:hover,
@@ -34,6 +39,7 @@ main {
 }
 
 .package__badge {
+  /* take out of document flow but if its ancestor has postion relative, then it will postion to that element else it will postion to html element */
   position: absolute;
   top: 0;
   right: 0;
