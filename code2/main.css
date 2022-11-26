@@ -20,12 +20,23 @@ a.active {
   color: #521751;
 }
 
+/* pesudo selector */
+/* select a which doesn't have active class */
+/* check browser support */
+a:not(.active) {
+  color: blue;
+}
+
 .main-section {
   height: 800px;
-  border: 1px solid #ccc;
+  /* !important dont case specificity, override everything , don't use in 99% cases*/
+  border: 1px solid #ccc !important;
   padding: 16px;
 }
 
 .highlighted {
   border: 2px solid #fa923f;
 }
+
+/* classes can be used multiple times in a page */
+/* id can be use once per page */
