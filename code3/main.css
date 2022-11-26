@@ -104,6 +104,7 @@
   height: 128px;
   border: 2px solid #424242;
   border-radius: 50%;
+  /* center horizontally, and vertically if height is set */
   margin: auto;
 }
 
