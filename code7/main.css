@@ -1,7 +1,6 @@
 #product-overview {
   background: linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent),
-    url("images/freedom.jpg") center/cover no-repeat border-box,
-    #ff1b68;
+    url("images/freedom.jpg") center/cover no-repeat border-box, #ff1b68;
   /* background-image: url("freedom.jpg");
     background-size: cover;
     background-position: left 10% bottom 20%; */
@@ -24,7 +23,9 @@
   left: 3%;
   font-size: 1.6rem;
 }
-
+/* media query condition */
+/* we have also orientation: landscape mode */
+/* @media (min-width: 40rem), (min-height: 40rem) change and with , for or condition*/
 @media (min-width: 40rem) and (min-height: 40rem) {
   #product-overview {
     height: 40vh;
