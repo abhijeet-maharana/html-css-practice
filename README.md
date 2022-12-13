@@ -1,309 +1,315 @@
 Topics I learned in CSS
 
+- Getting Started
+
+  - What is CSS
+
+  - CSS History, Present & Future
+
 - CSS Basics:
 
-  Inline style (style attribute), Interal Style(style tag) and Exerternal Style(.css file)
+  - Inline style (style attribute), Interal Style(style tag) and Exerternal Style(.css file)
 
-  Importing Google fonts
+  - Importing Google fonts
 
-  Selectors
+  - Selectors
 
-  Castcading Style & Specificity
+  - Castcading Style & Specificity
 
-  Inheritance
+  - Inheritance
 
-  Combinators
+  - Combinators
 
-  CSS Box Model
+  - CSS Box Model
 
-  Margin Collapsing and Removing Default Margins
+  - Margin Collapsing and Removing Default Margins
 
-  Shorthand Properties
+  - Shorthand Properties
 
-  height & width properties
+  - height & width properties
 
-  margin ,padding, color
+  - margin ,padding, color
 
-  box-sizing
+  - box-sizing
 
-  display
+  - display
 
-  unexpected inline-block behaviour
+  - unexpected inline-block behaviour
 
-  styling anchor tags
+  - styling anchor tags
 
-  Pseduo classes
+  - Pseduo classes
 
-  Pseduo elements
+  - Pseduo elements
 
-  Grouping Rules
+  - Grouping Rules
 
-  font-weight
+  - font-weight
 
-  border
+  - border
 
-  Styling a CTA button
+  - Styling a CTA button
 
-  background-image
+  - background-image
 
-  Multiple CSS Classes & Combined selectors
+  - Multiple CSS Classes & Combined selectors
 
-  Classes vs IDs
+  - Classes vs IDs
 
-  !important
+  - !important
 
-  Selecting the opposite with :not()
+  - Selecting the opposite with :not()
 
-  Browser support
+  - Browser support
 
-  border-radius
+  - border-radius
 
-  outlines
+  - outlines
 
-  float
+  - float
 
 - Positioning Elements with CSS
 
-  position: static, fixed, absolute and relative
+  - position: static, fixed, absolute and relative
 
-  z-index
+  - z-index
 
-  overflow
+  - overflow
 
-  Stacking Context
+  - Stacking Context
 
 - Background images & images
 
-  background-size
+  - background-size
 
-  background-position
+  - background-position
 
-  background origin clip and attachment
+  - background origin clip and attachment
 
-  background shorthand
+  - background shorthand
 
-  styling images
+  - styling images
 
-  liner gradients
+  - liner gradients
 
-  radial gradients
+  - radial gradients
 
-  stacking multiple backgrounds
+  - stacking multiple backgrounds
 
-  filter
+  - filter
 
-  styling SVGs
+  - styling SVGs
 
 - Sizes & Units
 
-  % vs rem vs rem vs px
+  - % vs rem vs rem vs px
 
-  height: 100% issue
+  - height: 100% issue
 
-  font-size of root element
+  - font-size of root element
 
-  min-height, min-width, max-height, max-width
+  - min-height, min-width, max-height, max-width
 
-  vw & vh
+  - vw & vh
 
-  auto to center elements
+  - auto to center elements
 
 - Working with Javascript & CSS
 
-  Styling a modal
+  - Styling a modal
 
-  Selecting and Manupulation styles with Javascript
+  - Selecting and Manupulation styles with Javascript
 
-  Dynamic Side Navigation bar with js
+  - Dynamic Side Navigation bar with js
 
-  Opening and closing hamburger menu with js
+  - Opening and closing hamburger menu with js
 
 - Making webiste Responsive
 
-  Hardware pixels vs Software pixels
+  - Hardware pixels vs Software pixels
 
-  viewport meta tag html vs media queries css
+  - viewport meta tag html vs media queries css
 
-  mobile first approach
+  - mobile first approach
 
-  media queries
+  - media queries
 
-  finding right break points
+  - finding right break points
 
-  logical operators in media queries
+  - logical operators in media queries
 
 - Styling forms
 
-  styling checkbox
+  - styling checkbox
 
-  providing validation feedback
+  - providing validation feedback
 
 - Text & Fonts
 
-  general families vs font families
+  - general families vs font families
 
-  browser setting for fonts
+  - browser setting for fonts
 
-  font-family
+  - font-family
 
-  locally saved fonts, custom fonts, google fonts
+  - locally saved fonts, custom fonts, google fonts
 
-  font faces
+  - font faces
 
-  font-style
+  - font-style
 
-  font formats
+  - font formats
 
-  font properties
+  - font properties
 
-  letter-spacing
+  - letter-spacing
 
-  line-height
+  - line-height
 
-  text-decoration
+  - text-decoration
 
-  text-shadow
+  - text-shadow
 
-  font shorthand
+  - font shorthand
 
-  font-display
+  - font-display
 
 - Flexbox
 
-  create flex container
+  - create flex container
 
-  flex-direction
+  - flex-direction
 
-  flex-wrap
+  - flex-wrap
 
-  main axis vs cross axis
+  - main axis vs cross axis
 
-  justify content vs align items
+  - justify content vs align items
 
-  align content
+  - align content
 
-  order
+  - order
 
-  align self
+  - align self
 
-  flex-grow
+  - flex-grow
 
-  flex-shrink
+  - flex-shrink
 
-  flex-basis vs width & height
+  - flex-basis vs width & height
 
 - Grid
 
-  create grid container
+  - create grid container
 
-  defining column & rows
+  - defining column & rows
 
-  positioning child elements in a grid
+  - positioning child elements in a grid
 
-  element-sizing, repeat & minmax
+  - element-sizing, repeat & minmax
 
-  Advanced element positioning
+  - Advanced element positioning
 
-  named lines
+  - named lines
 
-  column & row shorthands
+  - column & row shorthands
 
-  gaps
+  - gaps
 
-  named template area
+  - named template area
 
-  creating automatically generated grid areas
+  - creating automatically generated grid areas
 
-  fit-content
+  - fit-content
 
-  responsive grids
+  - responsive grids
 
-  autoflow
+  - autoflow
 
-  explicit grid vs implicit grid
+  - explicit grid vs implicit grid
 
-  auto fill & auto fit
+  - auto fill & auto fit
 
-  dence grid
+  - dence grid
 
-  styling form with grid
+  - styling form with grid
 
-  grid vs flexbox
+  - grid vs flexbox
 
-- Transformign Elements
+- Transforming Elements
 
-  transform-origin
+  - transform-origin
 
-  rotate and translate
+  - rotate and translate
 
-  skew & scale
+  - skew & scale
 
-  transformation shorthand
+  - transformation shorthand
 
-  rotating elements in 3D
+  - rotating elements in 3D
 
-  perspective property
+  - perspective property
 
-  moving elements along the z-axis with translate z
+  - moving elements along the z-axis with translate z
 
-  rotating the container with transform style
+  - rotating the container with transform style
 
-  flipping elements & backface-visibility
+  - flipping elements & backface-visibility
 
 - Transition & Animations in CSS
 
-  applying transitions
+  - applying transitions
 
-  timing functions
+  - timing functions
 
-  transitions & display
+  - transitions & display
 
-  using css animations
+  - using css animations
 
-  multiple keyframes
+  - multiple keyframes
 
-  using javascript animation event listeners
+  - using javascript animation event listeners
 
 - Writing Future proof CSS Code
 
-  CSS working groups website
+  - CSS working groups website
 
-  CSS variables
+  - CSS variables
 
-  vendor prefixes
+  - vendor prefixes
 
-  Detecting browser supoorts with @supports
+  - Detecting browser supoorts with @supports
 
-  polyfils
+  - polyfils
 
-  Eliminating cross browser inconsistencies
+  - Eliminating cross browser inconsistencies
 
-  name css classes
+  - name css classes
 
-  vanilla css vs frameworks
+  - vanilla css vs frameworks
 
 - Sass and Scss
 
-  Things to be improved with sass
+  - Things to be improved with sass
 
-  nesting selectors
+  - nesting selectors
 
-  adding nested properties
+  - adding nested properties
 
-  variables
+  - variables
 
-  storing listing and maps in variables
+  - storing listing and maps in variables
 
-  built in functions
+  - built in functions
 
-  simple arithmetics
+  - simple arithmetics
 
-  better import and partials
+  - better import and partials
 
-  imporving media queries
+  - imporving media queries
 
-  inheritance
+  - inheritance
 
-  mixins
+  - mixins
 
-  ampersand operator
+  - ampersand operator
